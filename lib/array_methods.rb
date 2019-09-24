@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
   i= 0 
-  array.length.times do |i|
+  while i<array.length do
     array[i] === value_to_find
       if array[i] === value_to_find
         puts i
